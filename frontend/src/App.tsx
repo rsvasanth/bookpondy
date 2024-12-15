@@ -16,7 +16,7 @@ function App() {
 	  siteName={import.meta.env.VITE_SITE_NAME}
 	  socketPort={import.meta.env.VITE_SOCKET_PORT}
 	  >
-		<Button onClick={handelClick}>hello : {count}</Button>
+		<Button className={"bg-amber-400"} onClick={handelClick}>hello : {count}</Button>
 	 
 	  </FrappeProvider>
 	</div>
