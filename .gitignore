@@ -5,3 +5,7 @@
 tags
 node_modules
 __pycache__
+.env.local
+
+bookpondy/public/frontend
+bookpondy/www/bookpondy.html
