@@ -5,17 +5,113 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_vreh"
+  "section_break_itnk",
+  "bike_name",
+  "bike_model",
+  "column_break_tbei",
+  "available",
+  "bike_reg_number",
+  "bike_reg_state",
+  "column_break_odug",
+  "supplier",
+  "pick_point",
+  "section_break_rbkq",
+  "base_price",
+  "column_break_sniu",
+  "offer_price",
+  "section_break_ssox",
+  "description",
+  "image"
  ],
  "fields": [
   {
-   "fieldname": "section_break_vreh",
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "label": "Supplier",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "section_break_itnk",
+   "fieldtype": "Section Break",
+   "options": "Honda\nYamaha\nHero\nTvs\nBajaj"
+  },
+  {
+   "fieldname": "bike_name",
+   "fieldtype": "Data",
+   "label": "Bike Name"
+  },
+  {
+   "fieldname": "bike_model",
+   "fieldtype": "Select",
+   "label": "Bike Model"
+  },
+  {
+   "default": "0",
+   "fieldname": "available",
+   "fieldtype": "Check",
+   "label": "Available"
+  },
+  {
+   "fieldname": "bike_reg_number",
+   "fieldtype": "Data",
+   "label": "Bike Reg Number",
+   "unique": 1
+  },
+  {
+   "fieldname": "bike_reg_state",
+   "fieldtype": "Select",
+   "label": "Bike Reg State",
+   "options": "TN\nPY"
+  },
+  {
+   "fieldname": "column_break_odug",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_tbei",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pick_point",
+   "fieldtype": "Data",
+   "label": "Pick Point"
+  },
+  {
+   "fieldname": "section_break_ssox",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach",
+   "label": "Image"
+  },
+  {
+   "fieldname": "section_break_rbkq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "base_price",
+   "fieldtype": "Int",
+   "label": "Base Price"
+  },
+  {
+   "fieldname": "column_break_sniu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "offer_price",
+   "fieldtype": "Int",
+   "label": "Offer Price"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-13 13:30:04.476164",
+ "modified": "2024-12-15 17:28:49.674993",
  "modified_by": "Administrator",
  "module": "Bookpondy",
  "name": "Bike",

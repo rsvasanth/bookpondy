@@ -1,0 +1,31 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-16 13:12:31.386928",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "included_services"
+ ],
+ "fields": [
+  {
+   "fieldname": "included_services",
+   "fieldtype": "Link",
+   "label": "Included Services",
+   "options": "Tour Include Service"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-16 13:16:44.685984",
+ "modified_by": "Administrator",
+ "module": "Bookpondy",
+ "name": "Tour Include Service Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
