@@ -4,7 +4,7 @@ import HeroSlider from './HeroSlider'
 export default function Hero() {
   return (
     <div className="bg-amber-450 text-black py-20 px-6 md:px-10">
-      <div className="container mx-auto flex  bg-yellow-400  flex-col lg:flex-row items-center gap-12">
+      <div className="container mx-auto flex    flex-col lg:flex-row items-center gap-12">
         <div className="lg:w-1/2 text-center  lg:text-left">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Find Your Perfect Stay, Ride, or Drive</h1>
           <p className="text-xl mb-8">Book accommodations, rent cars, or hire bikes - all in one place!</p>

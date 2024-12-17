@@ -1,0 +1,162 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:package_name",
+ "creation": "2024-12-16 12:44:39.745538",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "package_name",
+  "base_price_per_person",
+  "description",
+  "column_break_lujy",
+  "host",
+  "tour_type",
+  "category",
+  "duration",
+  "destination",
+  "section_break_mnhl",
+  "itinerary",
+  "section_break_mits",
+  "images",
+  "section_break_chzd",
+  "included_services",
+  "highlights",
+  "column_break_dctn",
+  "excluded_services"
+ ],
+ "fields": [
+  {
+   "fieldname": "package_name",
+   "fieldtype": "Data",
+   "label": "Package Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "column_break_lujy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "host",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Host",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "tour_type",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Tour Type",
+   "options": "Group Tour\nPrivate Tour\nCustomizable"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Category",
+   "options": "Adventure\nCultural\nEco-tour\nWellness\nLeisure"
+  },
+  {
+   "fieldname": "section_break_mnhl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "itinerary",
+   "fieldtype": "Table",
+   "label": "Itinerary",
+   "options": "Itinerary Item"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Int",
+   "label": "Duration"
+  },
+  {
+   "fieldname": "destination",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Destination"
+  },
+  {
+   "fieldname": "base_price_per_person",
+   "fieldtype": "Currency",
+   "label": "Base Price Per Person"
+  },
+  {
+   "fieldname": "section_break_chzd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "included_services",
+   "fieldtype": "Table MultiSelect",
+   "label": "Included Services",
+   "options": "Tour Include Service Item"
+  },
+  {
+   "fieldname": "column_break_dctn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "excluded_services",
+   "fieldtype": "Table MultiSelect",
+   "label": "Excluded Services",
+   "options": "Tour Include Service Item"
+  },
+  {
+   "fieldname": "section_break_mits",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "images",
+   "fieldtype": "Attach",
+   "label": "Images"
+  },
+  {
+   "fieldname": "highlights",
+   "fieldtype": "Small Text",
+   "label": "Highlights"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-16 13:33:30.168451",
+ "modified_by": "Administrator",
+ "module": "Bookpondy",
+ "name": "Tour Package",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

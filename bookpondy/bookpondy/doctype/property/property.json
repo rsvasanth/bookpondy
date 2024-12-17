@@ -1,0 +1,236 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-15 18:02:56.996148",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "1_basic_information_section",
+  "property_name",
+  "property_type",
+  "host",
+  "column_break_yqfx",
+  "description",
+  "7_availability_section",
+  "availability_status",
+  "6_capacity_section",
+  "max_guests",
+  "column_break_qhon",
+  "number_of_bedrooms",
+  "number_of_beds",
+  "number_of_bathrooms",
+  "2_location_section",
+  "address",
+  "latitude",
+  "longitude",
+  "column_break_cyzk",
+  "city",
+  "state",
+  "country",
+  "postal_code",
+  "3_pricing_section",
+  "base_price_per_night",
+  "column_break_oswp",
+  "cleaning_fee",
+  "service_fee",
+  "column_break_azff",
+  "discount_percentage",
+  "4_amenities_section",
+  "amenities",
+  "5_photos_section",
+  "photos"
+ ],
+ "fields": [
+  {
+   "fieldname": "property_name",
+   "fieldtype": "Data",
+   "label": "Property Name"
+  },
+  {
+   "fieldname": "property_type",
+   "fieldtype": "Select",
+   "label": "Property Type",
+   "options": "Villa\nApartment\nCottage\nBungalow\nHostel\nOther"
+  },
+  {
+   "fieldname": "host",
+   "fieldtype": "Link",
+   "label": "Host",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "column_break_yqfx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "1_basic_information_section",
+   "fieldtype": "Section Break",
+   "label": "1. Basic Information"
+  },
+  {
+   "fieldname": "7_availability_section",
+   "fieldtype": "Section Break",
+   "label": "7. Availability"
+  },
+  {
+   "fieldname": "availability_status",
+   "fieldtype": "Data",
+   "label": "Availability Status"
+  },
+  {
+   "fieldname": "6_capacity_section",
+   "fieldtype": "Section Break",
+   "label": "6. Capacity"
+  },
+  {
+   "fieldname": "max_guests",
+   "fieldtype": "Data",
+   "label": "Max Guests"
+  },
+  {
+   "fieldname": "column_break_qhon",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "number_of_bedrooms",
+   "fieldtype": "Int",
+   "label": "Number of Bedrooms"
+  },
+  {
+   "fieldname": "number_of_beds",
+   "fieldtype": "Int",
+   "label": "Number of Beds"
+  },
+  {
+   "fieldname": "number_of_bathrooms",
+   "fieldtype": "Int",
+   "label": "Number of Bathrooms"
+  },
+  {
+   "fieldname": "2_location_section",
+   "fieldtype": "Section Break",
+   "label": "2. Location"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "latitude",
+   "fieldtype": "Data",
+   "label": "Latitude"
+  },
+  {
+   "fieldname": "longitude",
+   "fieldtype": "Data",
+   "label": "Longitude"
+  },
+  {
+   "fieldname": "column_break_cyzk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "postal_code",
+   "fieldtype": "Data",
+   "label": "Postal Code"
+  },
+  {
+   "fieldname": "3_pricing_section",
+   "fieldtype": "Section Break",
+   "label": "3. Pricing"
+  },
+  {
+   "fieldname": "base_price_per_night",
+   "fieldtype": "Currency",
+   "label": "Base Price Per Night "
+  },
+  {
+   "fieldname": "column_break_oswp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cleaning_fee",
+   "fieldtype": "Currency",
+   "label": "Cleaning Fee"
+  },
+  {
+   "fieldname": "service_fee",
+   "fieldtype": "Currency",
+   "label": "Service Fee"
+  },
+  {
+   "fieldname": "column_break_azff",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "discount_percentage",
+   "fieldtype": "Percent",
+   "label": "Discount Percentage"
+  },
+  {
+   "fieldname": "4_amenities_section",
+   "fieldtype": "Section Break",
+   "label": "4. Amenities"
+  },
+  {
+   "fieldname": "amenities",
+   "fieldtype": "Data",
+   "label": "Amenities"
+  },
+  {
+   "fieldname": "5_photos_section",
+   "fieldtype": "Section Break",
+   "label": "5. Photos"
+  },
+  {
+   "fieldname": "photos",
+   "fieldtype": "Attach Image",
+   "label": "Photos"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-15 18:18:13.968829",
+ "modified_by": "Administrator",
+ "module": "Bookpondy",
+ "name": "Property",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
